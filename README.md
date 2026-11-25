@@ -14,6 +14,11 @@
 
 I build low-level process supervisors, local-first WebAssembly engines, and reliable distributed backends—focused on explicit invariants over black-box abstractions. Studying Data Science & AI at **IIIT Naya Raipur** (`2024 – 2028`).
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/architecture-dark.svg">
+  <img alt="System topology and measured invariants for Fleetorch, Mnemium, and TensorCAS." src="./assets/architecture-light.svg" width="100%">
+</picture>
+
 ---
 
 ### Selected Systems
