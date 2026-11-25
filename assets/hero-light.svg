@@ -13,58 +13,49 @@
   <rect width="840" height="210" rx="12" fill="url(#grid-light)" opacity="0.8"/>
   <rect x="0.5" y="0.5" width="839" height="209" rx="11.5" stroke="#D1D5DB"/>
 
-  <!-- Left Accent Bar -->
   <rect x="32" y="34" width="3" height="142" rx="1.5" fill="#059669"/>
 
-  <!-- Eyebrow -->
   <text x="50" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1.6" fill="#059669">
-    IIIT NAYA RAIPUR · DS &amp; AI · MAYANKSAHU.DEV
+    IIIT NAYA RAIPUR · DS &amp; AI · RAIPUR, INDIA
   </text>
 
-  <!-- Name -->
   <text x="50" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-0.8" fill="#111827">
     Mayank Sahu
   </text>
 
-  <!-- Tagline -->
-  <text x="50" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4B5563">
-    AI Systems Engineer — engineering high-trust systems for an unpredictable machine age.
+  <text x="50" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#4B5563">
+    Distributed Systems &amp; AI Infrastructure Engineer — process orchestration, WASM &amp; backends.
   </text>
 
-  <!-- Domain Pills -->
   <g transform="translate(50, 148)">
-    <rect x="0" y="0" width="136" height="26" rx="5" fill="#FFFFFF" stroke="#D1D5DB"/>
+    <rect x="0" y="0" width="154" height="26" rx="5" fill="#FFFFFF" stroke="#D1D5DB"/>
     <circle cx="14" cy="13" r="3" fill="#059669"/>
-    <text x="25" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#1F2937">AGENT INFRA</text>
+    <text x="25" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#1F2937">PROCESS ORCH</text>
 
-    <rect x="146" y="0" width="142" height="26" rx="5" fill="#FFFFFF" stroke="#D1D5DB"/>
-    <circle cx="160" cy="13" r="3" fill="#D97706"/>
-    <text x="171" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#1F2937">LOCAL AI MEMORY</text>
+    <rect x="164" y="0" width="142" height="26" rx="5" fill="#FFFFFF" stroke="#D1D5DB"/>
+    <circle cx="178" cy="13" r="3" fill="#D97706"/>
+    <text x="189" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#1F2937">WASM VECTOR</text>
 
-    <rect x="298" y="0" width="152" height="26" rx="5" fill="#FFFFFF" stroke="#D1D5DB"/>
-    <circle cx="312" cy="13" r="3" fill="#2563EB"/>
-    <text x="323" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#1F2937">APPLIED RESEARCH</text>
+    <rect x="316" y="0" width="168" height="26" rx="5" fill="#FFFFFF" stroke="#D1D5DB"/>
+    <circle cx="330" cy="13" r="3" fill="#2563EB"/>
+    <text x="341" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#1F2937">DIST. BACKENDS</text>
   </g>
 
-  <!-- Right Architectural Node Schematic -->
   <g transform="translate(650, 38)">
     <rect x="0" y="0" width="154" height="134" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
     <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#6B7280">@msnotfound</text>
     <line x1="14" y1="31" x2="140" y2="31" stroke="#E5E7EB"/>
 
-    <circle cx="32" cy="56" r="5" fill="#059669"/>
-    <line x1="37" y1="56" x2="72" y2="56" stroke="#9CA3AF" stroke-width="1.5"/>
-    <rect x="72" y="47" width="66" height="18" rx="4" fill="#F9FAFB" stroke="#D1D5DB"/>
-    <text x="80" y="59" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#111827">fleetorch</text>
+    <circle cx="28" cy="56" r="4.5" fill="#059669"/>
+    <text x="40" y="59" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#111827">fleetorch</text>
+    <text x="104" y="59" font-family="ui-monospace, Menlo, monospace" font-size="9" fill="#059669">&lt;15ms</text>
 
-    <circle cx="32" cy="84" r="5" fill="#D97706"/>
-    <line x1="37" y1="84" x2="72" y2="84" stroke="#9CA3AF" stroke-width="1.5"/>
-    <rect x="72" y="75" width="66" height="18" rx="4" fill="#F9FAFB" stroke="#D1D5DB"/>
-    <text x="80" y="87" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#111827">mnemium</text>
+    <circle cx="28" cy="84" r="4.5" fill="#D97706"/>
+    <text x="40" y="87" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#111827">mnemium</text>
+    <text x="104" y="87" font-family="ui-monospace, Menlo, monospace" font-size="9" fill="#D97706">&lt;12ms</text>
 
-    <circle cx="32" cy="112" r="5" fill="#2563EB"/>
-    <line x1="37" y1="112" x2="72" y2="112" stroke="#9CA3AF" stroke-width="1.5"/>
-    <rect x="72" y="103" width="66" height="18" rx="4" fill="#F9FAFB" stroke="#D1D5DB"/>
-    <text x="80" y="115" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#111827">tropicam</text>
+    <circle cx="28" cy="112" r="4.5" fill="#2563EB"/>
+    <text x="40" y="115" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#111827">hookguard</text>
+    <text x="104" y="115" font-family="ui-monospace, Menlo, monospace" font-size="9" fill="#2563EB">outbox</text>
   </g>
 </svg>
