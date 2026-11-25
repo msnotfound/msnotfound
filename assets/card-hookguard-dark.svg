@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 210" width="410" height="210" fill="none">
+  <defs>
+    <style>
+      @keyframes flowDash { to { stroke-dashoffset: -16; } }
+      .flow { stroke-dasharray: 4 4; animation: flowDash 1.6s linear infinite; }
+    </style>
+  </defs>
+
+  <rect width="410" height="210" rx="6" fill="#14171D"/>
+  <rect x="0.5" y="0.5" width="409" height="209" rx="5.5" stroke="#ECEDF0" stroke-opacity="0.14"/>
+
+  <text x="20" y="26" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="9.5" letter-spacing="1.2" fill="#949AA5">
+    03 / RELIABILITY · HOOKGUARD
+  </text>
+  <text x="20" y="50" font-family="'EB Garamond', Georgia, serif" font-size="20" fill="#ECEDF0">
+    Transactional Outbox &amp; Chaos Lab
+  </text>
+
+  <!-- Pipeline nodes -->
+  <rect x="20" y="76" width="106" height="32" rx="4" fill="#1C2028" stroke="#ECEDF0" stroke-opacity="0.16"/>
+  <text x="73" y="96" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="9.5" fill="#ECEDF0">PG Outbox TX</text>
+
+  <line x1="126" y1="92" x2="152" y2="92" stroke="#C5F82A" stroke-opacity="0.65" stroke-width="1.2" class="flow"/>
+
+  <rect x="152" y="76" width="106" height="32" rx="4" fill="#1C2028" stroke="#ECEDF0" stroke-opacity="0.16"/>
+  <text x="205" y="96" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="9.5" fill="#ECEDF0">SSRF DNS Gate</text>
+
+  <line x1="258" y1="92" x2="284" y2="92" stroke="#C5F82A" stroke-opacity="0.65" stroke-width="1.2" class="flow"/>
+
+  <rect x="284" y="76" width="106" height="32" rx="4" fill="#1C2028" stroke="#C5F82A" stroke-opacity="0.45"/>
+  <text x="337" y="96" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="9.5" fill="#C5F82A">HMAC + AES-GCM</text>
+
+  <!-- Bottom chaos/jitter row -->
+  <rect x="20" y="126" width="176" height="30" rx="4" fill="#1C2028" stroke="#ECEDF0" stroke-opacity="0.12"/>
+  <text x="108" y="145" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="9.5" fill="#949AA5">Full-Jitter Backoff + DLQ</text>
+
+  <rect x="214" y="126" width="176" height="30" rx="4" fill="#1C2028" stroke="#ECEDF0" stroke-opacity="0.12"/>
+  <text x="302" y="145" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="9.5" fill="#949AA5">Chaos: 500s / 429 / Drops</text>
+
+  <line x1="20" y1="178" x2="390" y2="178" stroke="#ECEDF0" stroke-opacity="0.1"/>
+  <text x="20" y="196" font-family="'IBM Plex Mono', Menlo, monospace" font-size="9.5" fill="#949AA5">
+    Node.js · PostgreSQL · Redis · BullMQ
+  </text>
+</svg>

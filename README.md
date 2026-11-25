@@ -19,6 +19,11 @@ I build low-level process supervisors, local-first WebAssembly engines, and reli
   <img alt="System topology and measured invariants for Fleetorch, Mnemium, and TensorCAS." src="./assets/architecture-light.svg" width="100%">
 </picture>
 
+<p align="center">
+  <a href="https://github.com/msnotfound/msnotfound.github.io/blob/main/papers/phantom.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-phantom-dark.svg"><img alt="Phantom cost-amortized replay curve: break-even at N*=1, $0/replay." src="./assets/card-phantom-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/msnotfound/hookguard"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-hookguard-dark.svg"><img alt="HookGuard Transactional Outbox, SSRF DNS Gate, and Chaos Lab pipeline." src="./assets/card-hookguard-light.svg" width="49%"></picture></a>
+</p>
+
 ---
 
 ### Selected Systems
