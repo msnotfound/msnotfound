@@ -1,61 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 210" width="840" height="210" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 196" width="840" height="196" fill="none">
   <defs>
-    <linearGradient id="bg-dark" x1="0" y1="0" x2="840" y2="210" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0B0D10"/>
-      <stop offset="100%" stop-color="#12161C"/>
-    </linearGradient>
-    <pattern id="grid-dark" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E242D" stroke-width="0.75"/>
+    <pattern id="grid-dark" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#C5F82A" stroke-opacity="0.045" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="840" height="210" rx="12" fill="url(#bg-dark)"/>
-  <rect width="840" height="210" rx="12" fill="url(#grid-dark)" opacity="0.65"/>
-  <rect x="0.5" y="0.5" width="839" height="209" rx="11.5" stroke="#262D38"/>
+  <rect width="840" height="196" rx="6" fill="#14171D"/>
+  <rect width="840" height="196" rx="6" fill="url(#grid-dark)"/>
+  <rect x="0.5" y="0.5" width="839" height="195" rx="5.5" stroke="#ECEDF0" stroke-opacity="0.14"/>
 
-  <rect x="32" y="34" width="3" height="142" rx="1.5" fill="#10B981"/>
+  <!-- Top metadata bar -->
+  <text x="36" y="36" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.4" fill="#949AA5">
+    00 / MAYANK SAHU — IIIT NAYA RAIPUR
+  </text>
+  <text x="804" y="36" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.2" fill="#C5F82A">
+    MAYANKSAHU.DEV
+  </text>
+  <line x1="36" y1="50" x2="804" y2="50" stroke="#ECEDF0" stroke-opacity="0.12"/>
 
-  <text x="50" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1.6" fill="#10B981">
-    IIIT NAYA RAIPUR · DS &amp; AI · RAIPUR, INDIA
+  <!-- Editorial Serif Headline -->
+  <text x="36" y="96" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="33" font-weight="400" letter-spacing="-0.4" fill="#ECEDF0">
+    High-trust systems built to survive
+  </text>
+  <text x="36" y="134" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="33" font-weight="400" font-style="italic" letter-spacing="-0.4" fill="#C5F82A">
+    an unpredictable machine age.
   </text>
 
-  <text x="50" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-0.8" fill="#F3F4F6">
-    Mayank Sahu
+  <!-- Bottom footer rule -->
+  <line x1="36" y1="154" x2="804" y2="154" stroke="#ECEDF0" stroke-opacity="0.12"/>
+  <text x="36" y="176" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#949AA5">
+    DISTRIBUTED SYSTEMS · PROCESS ORCHESTRATION · LOCAL WASM · APPLIED RESEARCH
   </text>
-
-  <text x="50" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#9CA3AF">
-    Distributed Systems &amp; AI Infrastructure Engineer — process orchestration, WASM &amp; backends.
+  <text x="804" y="176" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#949AA5">
+    @MSNOTFOUND
   </text>
-
-  <g transform="translate(50, 148)">
-    <rect x="0" y="0" width="154" height="26" rx="5" fill="#161B22" stroke="#2D3542"/>
-    <circle cx="14" cy="13" r="3" fill="#10B981"/>
-    <text x="25" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#D1D5DB">PROCESS ORCH</text>
-
-    <rect x="164" y="0" width="142" height="26" rx="5" fill="#161B22" stroke="#2D3542"/>
-    <circle cx="178" cy="13" r="3" fill="#F59E0B"/>
-    <text x="189" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#D1D5DB">WASM VECTOR</text>
-
-    <rect x="316" y="0" width="168" height="26" rx="5" fill="#161B22" stroke="#2D3542"/>
-    <circle cx="330" cy="13" r="3" fill="#60A5FA"/>
-    <text x="341" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#D1D5DB">DIST. BACKENDS</text>
-  </g>
-
-  <g transform="translate(650, 38)" opacity="0.95">
-    <rect x="0" y="0" width="154" height="134" rx="8" fill="#0E1116" stroke="#262D38"/>
-    <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#6B7280">@msnotfound</text>
-    <line x1="14" y1="31" x2="140" y2="31" stroke="#1F2630"/>
-
-    <circle cx="28" cy="56" r="4.5" fill="#10B981"/>
-    <text x="40" y="59" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#D1D5DB">fleetorch</text>
-    <text x="104" y="59" font-family="ui-monospace, Menlo, monospace" font-size="9" fill="#10B981">&lt;15ms</text>
-
-    <circle cx="28" cy="84" r="4.5" fill="#F59E0B"/>
-    <text x="40" y="87" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#D1D5DB">mnemium</text>
-    <text x="104" y="87" font-family="ui-monospace, Menlo, monospace" font-size="9" fill="#F59E0B">&lt;12ms</text>
-
-    <circle cx="28" cy="112" r="4.5" fill="#60A5FA"/>
-    <text x="40" y="115" font-family="ui-monospace, Menlo, monospace" font-size="9.5" fill="#D1D5DB">hookguard</text>
-    <text x="104" y="115" font-family="ui-monospace, Menlo, monospace" font-size="9" fill="#60A5FA">outbox</text>
-  </g>
 </svg>
