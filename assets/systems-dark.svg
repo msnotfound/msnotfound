@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 132" width="840" height="132" fill="none">
+  <!-- Pillar 1 -->
+  <rect x="0.5" y="0.5" width="268" height="131" rx="10" fill="#0E1116" stroke="#262D38"/>
+  <text x="18" y="28" font-family="ui-monospace, Menlo, monospace" font-size="10.5" font-weight="600" fill="#10B981">01 / AGENT INFRASTRUCTURE</text>
+  <text x="18" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="600" fill="#F3F4F6">Parallel &amp; Cost-Amortized</text>
+  <text x="18" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#9CA3AF">Isolated git-worktree agent fleets (Go)</text>
+  <text x="18" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#9CA3AF">and $0-replay desktop middleware.</text>
+  <text x="18" y="116" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#6B7280">fleetorch · Phantom</text>
+
+  <!-- Pillar 2 -->
+  <rect x="286.5" y="0.5" width="268" height="131" rx="10" fill="#0E1116" stroke="#262D38"/>
+  <text x="304" y="28" font-family="ui-monospace, Menlo, monospace" font-size="10.5" font-weight="600" fill="#F59E0B">02 / LOCAL &amp; DETERMINISTIC AI</text>
+  <text x="304" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="600" fill="#F3F4F6">Privacy &amp; Explicit Bounds</text>
+  <text x="304" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#9CA3AF">Offline-first AI chat memory &amp; CPU-only</text>
+  <text x="304" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#9CA3AF">tropical semiring event vision.</text>
+  <text x="304" y="116" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#6B7280">mnemium · tropicam</text>
+
+  <!-- Pillar 3 -->
+  <rect x="572.5" y="0.5" width="267" height="131" rx="10" fill="#0E1116" stroke="#262D38"/>
+  <text x="590" y="28" font-family="ui-monospace, Menlo, monospace" font-size="10.5" font-weight="600" fill="#60A5FA">03 / PRODUCTS &amp; ZK SYSTEMS</text>
+  <text x="590" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="600" fill="#F3F4F6">Shipped Open Source</text>
+  <text x="590" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#9CA3AF">AI document creation (79★), ZK trading</text>
+  <text x="590" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#9CA3AF">signals on Midnight, PPO traffic RL.</text>
+  <text x="590" y="116" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#6B7280">Draftdeckai · ghostsignal</text>
+</svg>
