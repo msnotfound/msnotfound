@@ -17,43 +17,43 @@
   </text>
   <line x1="24" y1="36" x2="816" y2="36" stroke="#171A21" stroke-opacity="0.1"/>
 
-  <!-- Row 1: Fleetorch -->
+  <!-- Row 1: Fleetorch (Royal Cobalt) -->
   <text x="24" y="65" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="11" font-weight="600" fill="#2B4ACB">FLEETORCH</text>
-  <rect x="128" y="49" width="140" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <rect x="128" y="49" width="140" height="24" rx="4" fill="#F3F4F8" stroke="#2B4ACB" stroke-opacity="0.28"/>
   <text x="198" y="65" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">Go Supervisor</text>
   <line x1="268" y1="61" x2="322" y2="61" stroke="#2B4ACB" stroke-opacity="0.65" stroke-width="1.2" class="flow"/>
-  <rect x="322" y="49" width="164" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <rect x="322" y="49" width="164" height="24" rx="4" fill="#F3F4F8" stroke="#2B4ACB" stroke-opacity="0.28"/>
   <text x="404" y="65" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">ConPTY / POSIX PTY</text>
   <line x1="486" y1="61" x2="540" y2="61" stroke="#2B4ACB" stroke-opacity="0.65" stroke-width="1.2" class="flow"/>
-  <rect x="540" y="49" width="144" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <rect x="540" y="49" width="144" height="24" rx="4" fill="#F3F4F8" stroke="#2B4ACB" stroke-opacity="0.28"/>
   <text x="612" y="65" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">Git Worktree Pool</text>
   <text x="816" y="65" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#2B4ACB">&lt;15ms bootstrap</text>
 
   <line x1="24" y1="84" x2="816" y2="84" stroke="#171A21" stroke-opacity="0.08"/>
 
-  <!-- Row 2: Mnemium -->
-  <text x="24" y="109" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="11" font-weight="600" fill="#171A21">MNEMIUM</text>
-  <rect x="128" y="93" width="140" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <!-- Row 2: Mnemium (Deep Teal) -->
+  <text x="24" y="109" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="11" font-weight="600" fill="#0D9488">MNEMIUM</text>
+  <rect x="128" y="93" width="140" height="24" rx="4" fill="#F3F4F8" stroke="#0D9488" stroke-opacity="0.28"/>
   <text x="198" y="109" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">SSE Stream Tap</text>
-  <line x1="268" y1="105" x2="322" y2="105" stroke="#626875" stroke-opacity="0.7" stroke-width="1.2" class="flow"/>
-  <rect x="322" y="93" width="164" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <line x1="268" y1="105" x2="322" y2="105" stroke="#0D9488" stroke-opacity="0.65" stroke-width="1.2" class="flow"/>
+  <rect x="322" y="93" width="164" height="24" rx="4" fill="#F3F4F8" stroke="#0D9488" stroke-opacity="0.28"/>
   <text x="404" y="109" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">sqlite-vec WASM</text>
-  <line x1="486" y1="105" x2="540" y2="105" stroke="#626875" stroke-opacity="0.7" stroke-width="1.2" class="flow"/>
-  <rect x="540" y="93" width="144" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <line x1="486" y1="105" x2="540" y2="105" stroke="#0D9488" stroke-opacity="0.65" stroke-width="1.2" class="flow"/>
+  <rect x="540" y="93" width="144" height="24" rx="4" fill="#F3F4F8" stroke="#0D9488" stroke-opacity="0.28"/>
   <text x="612" y="109" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">mnemiumd BM25+SLM</text>
-  <text x="816" y="109" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#626875">&lt;12ms 768-dim</text>
+  <text x="816" y="109" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#0D9488">&lt;12ms 768-dim</text>
 
   <line x1="24" y1="128" x2="816" y2="128" stroke="#171A21" stroke-opacity="0.08"/>
 
-  <!-- Row 3: TensorCAS -->
-  <text x="24" y="151" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="11" font-weight="600" fill="#171A21">TENSORCAS</text>
-  <rect x="128" y="135" width="140" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <!-- Row 3: TensorCAS (Burnt Amber) -->
+  <text x="24" y="151" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="11" font-weight="600" fill="#D97706">TENSORCAS</text>
+  <rect x="128" y="135" width="140" height="24" rx="4" fill="#F3F4F8" stroke="#D97706" stroke-opacity="0.3"/>
   <text x="198" y="151" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">Safetensors/GGUF</text>
-  <line x1="268" y1="147" x2="322" y2="147" stroke="#626875" stroke-opacity="0.7" stroke-width="1.2" class="flow"/>
-  <rect x="322" y="135" width="164" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <line x1="268" y1="147" x2="322" y2="147" stroke="#D97706" stroke-opacity="0.65" stroke-width="1.2" class="flow"/>
+  <rect x="322" y="135" width="164" height="24" rx="4" fill="#F3F4F8" stroke="#D97706" stroke-opacity="0.3"/>
   <text x="404" y="151" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">Blake3 + FastCDC</text>
-  <line x1="486" y1="147" x2="540" y2="147" stroke="#626875" stroke-opacity="0.7" stroke-width="1.2" class="flow"/>
-  <rect x="540" y="135" width="144" height="24" rx="4" fill="#F3F4F8" stroke="#171A21" stroke-opacity="0.14"/>
+  <line x1="486" y1="147" x2="540" y2="147" stroke="#D97706" stroke-opacity="0.65" stroke-width="1.2" class="flow"/>
+  <rect x="540" y="135" width="144" height="24" rx="4" fill="#F3F4F8" stroke="#D97706" stroke-opacity="0.3"/>
   <text x="612" y="151" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#171A21">mmap DMA / libp2p</text>
-  <text x="816" y="151" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#626875">&gt;65% delta saved</text>
+  <text x="816" y="151" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#D97706">&gt;65% delta saved</text>
 </svg>

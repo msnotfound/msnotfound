@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 210" width="410" height="210" fill="none">
   <defs>
+    <linearGradient id="phantom-fill-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C5F82A" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#C5F82A" stop-opacity="0"/>
+    </linearGradient>
     <style>
       @keyframes ping {
         0%, 100% { r: 4; opacity: 1; }
@@ -12,7 +16,7 @@
   <rect width="410" height="210" rx="6" fill="#14171D"/>
   <rect x="0.5" y="0.5" width="409" height="209" rx="5.5" stroke="#ECEDF0" stroke-opacity="0.14"/>
 
-  <text x="20" y="26" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="9.5" letter-spacing="1.2" fill="#949AA5">
+  <text x="20" y="26" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="9.5" letter-spacing="1.2" fill="#38BDF8">
     02 / APPLIED RESEARCH · PHANTOM
   </text>
   <text x="20" y="50" font-family="'EB Garamond', Georgia, serif" font-size="20" fill="#ECEDF0">
@@ -23,9 +27,12 @@
   <line x1="34" y1="74" x2="34" y2="152" stroke="#ECEDF0" stroke-opacity="0.22" stroke-width="1"/>
   <line x1="34" y1="152" x2="386" y2="152" stroke="#ECEDF0" stroke-opacity="0.22" stroke-width="1"/>
 
-  <!-- Baseline VLM linear cost -->
-  <line x1="34" y1="148" x2="376" y2="74" stroke="#949AA5" stroke-opacity="0.5" stroke-width="1.4" stroke-dasharray="4 3"/>
-  <text x="376" y="70" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#949AA5">VLM per-step O(N)</text>
+  <!-- Baseline VLM linear cost (Warm Coral) -->
+  <line x1="34" y1="148" x2="376" y2="74" stroke="#FB923C" stroke-opacity="0.75" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="376" y="70" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#FB923C">VLM per-step O(N)</text>
+
+  <!-- Shaded area under Phantom curve -->
+  <polygon points="34,148 92,138 376,138 376,152 34,152" fill="url(#phantom-fill-dark)"/>
 
   <!-- Phantom flat $0 replay line -->
   <polyline points="34,148 92,138 376,138" stroke="#C5F82A" stroke-width="2" fill="none"/>
