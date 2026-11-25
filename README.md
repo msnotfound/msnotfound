@@ -61,9 +61,9 @@ Verifiable AI trading-signal protocol using zero-knowledge proofs and SHA-256 co
 </td>
 <td width="50%" valign="top">
 
-**[Tropicam](https://github.com/msnotfound/tropicam)** — `Python`
+**[TensorCAS](https://github.com/msnotfound/tensorcas)** — `C++ · Rust · Blake3`
 
-Deterministic, CPU-only, training-free event-vision engine operating over the tropical (max-plus) semiring.
+Content-addressed storage for multi-GB AI weights (Safetensors/GGUF) with Blake3 Merkle chunking, zero-copy `mmap` DMA, and `>65%` delta bandwidth reduction over `libp2p`.
 
 </td>
 </tr>
@@ -75,6 +75,7 @@ Deterministic, CPU-only, training-free event-vision engine operating over the tr
 
 | Project | Stack | Notes |
 | --- | --- | --- |
+| **[tropicam](https://github.com/msnotfound/tropicam)** | `Python` | Deterministic, CPU-only, training-free event-vision engine over the tropical (max-plus) semiring |
 | **[rl-emergency-traffic-control](https://github.com/msnotfound/rl-emergency-traffic-control)** | `Python` `PPO` `SUMO` | Deep-RL traffic-signal control prioritizing emergency vehicles (~70% faster ambulance travel) |
 | **[structura](https://github.com/msnotfound/structura)** | `Python` | Floor-plan analysis with IS 456:2000 design checks, 3D visualization, and cost estimation |
 | **[syntra](https://github.com/msnotfound/syntra)** | `TypeScript` | B2B intelligence delivery suite |
